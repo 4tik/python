@@ -50,5 +50,41 @@ print('z' in 'python')
 print('on' in 'python')
 print('pa' in 'python')
 
+#find substring in the main string
+print()
+print("find substring in the main string\n--------------------")
+
+mainString = "find substring in the main string"
+subString = "main"
+if subString in mainString:
+    print(subString, " => Found")
+else:
+    print("Not Found")
+
+print("\n## Predefined methods to remove spaces in Python ##\n")
+
+stringValue = "remove spacess  "
+print("Befor remove space : ", len(stringValue))
+print("After remove space : ", len(stringValue.rstrip()))
+
+course = "python programming language"
+print(course.find('p'));
+print(course.find('p',1,20))
+print("Find Index : ", course.index("language"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
